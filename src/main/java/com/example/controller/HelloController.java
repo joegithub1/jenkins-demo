@@ -26,4 +26,9 @@ public class HelloController {
     public String day(){
         return "母亲节快乐！！！";
     }
+
+    @RequestMapping("/test2")
+    public String test2(){
+        return "hello say";
+    }
 }
